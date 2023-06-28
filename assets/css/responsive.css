@@ -1,0 +1,54 @@
+
+/* Medium */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.hero_content h1 {
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+    .hero_content .hero-btn a {
+        font-size: 0.9rem;
+        padding: 0.45rem 1.6rem;
+    }
+}
+
+/* Small */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.hero_content h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+    .hero_content .hero-btn a {
+        font-size: 0.9rem;
+        padding: 0.45rem 1.6rem;
+    }
+}
+
+
+/* Extra Small */
+
+@media (max-width: 575.99px) {
+    .hero_content h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .hero_content .hero-btn a {
+        font-size: 0.8rem;
+        padding: 0.4rem 1.5rem;
+    }
+    .cta-btn {
+        margin-top: 1.5rem;
+    }
+    .contact_content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+	.line {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
